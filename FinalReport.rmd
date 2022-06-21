@@ -78,6 +78,12 @@ The white race has the highest number of people that favor capitol punishment. W
 
 
 
+
+
+
+
+
+
 ## Now with More data
 
 ```{r}
@@ -85,6 +91,7 @@ table2 <- xtabs(~race + cappun, data=mydata)
 rowPerc(table2)
 colPerc(table2)
 ```
+
 
 
 ## Inferential Results
