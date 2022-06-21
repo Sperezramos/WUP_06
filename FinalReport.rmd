@@ -92,7 +92,7 @@ rowPerc(table2)
 colPerc(table2)
 ```
 
-
+The white race has more than double that favor capitol punishment than the amount that oppose it.The black race oppose capital punishment more by about 6 percent to the amount that favor it. Other race favors capitol punishment by about 11 percent more than the amount that oppose it. The white people also have the highest number of participants. You can added both favored and opposing sides for black and other; and it would still be a smaller amount than the opposed size of the white race.
 
 ## Inferential Results
 
