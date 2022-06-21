@@ -44,6 +44,11 @@ If not, then whose view differs from whom??
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question. Bottom line is to explain the features of the graph that are relevant to conforming or departing to what is expected by your null hypothesis !-->
 
+```{r}
+barchartGC(~cappun + race,data=mydata)
+barchartGC(~cappun + race,data=mydata, type="percent")
+
+```
 
 
 
@@ -64,7 +69,7 @@ basicCC <- ggplot(dd2,aes(x=race,y=prcnt*100,fill=cappun))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
-
+The white race has the highest number of people that favor capitol punishment. While its opposition is about half its favored. For the black race there are slightly more people that oppose it than favor capitol punishment. Other race they have slightly more people that favor capitol.  
 
 ### Numerical Descriptive Results
 
